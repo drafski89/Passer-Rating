@@ -29,4 +29,4 @@ part4 = 2.375 - ((interceptions / attempts) * 25)
 finalCalculation = ((part1 + part2 + part3 + part4) / 6) * 100
 
 #	Print the result to the user
-print("The passer rating is: " + str(finalCalculation))
+print("The passer rating is: " + "{0:.2f}".format(finalCalculation))

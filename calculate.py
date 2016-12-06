@@ -4,10 +4,10 @@ from __future__ import print_function
 
 # Manually change these numbers
 # Note: These must be floats
-completions = 30.0
-attempts = 39.0
-passingYards = 313.0
-touchdowns = 2.0
+completions = 22.0
+attempts = 28.0
+passingYards = 278.0
+touchdowns = 4.0
 interceptions = 0.0
 
 # Do the calculation here:
@@ -16,7 +16,7 @@ interceptions = 0.0
 part1 = ((completions / attempts) - 0.3) * 5
 
 #	Part 2: ((Passing Yards / Attempts) - 3) * 0.25
-part2 = ((passingYards / attempts) - 3) * 0.5
+part2 = ((passingYards / attempts) - 3) * 0.25
 
 # 	Part 3: (Touchdowns / Attempts) * 20
 part3 = (touchdowns / attempts) * 20
